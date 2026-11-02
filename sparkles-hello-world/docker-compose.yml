@@ -1,14 +1,17 @@
-version: "3.7"
+version: "1.6.1"
 
 services:
-
-  app_proxy:
+  shelfmark:
+    image: ghcr.io/calibrain/shelfmark:latest
+    container_name: shelfmark
     environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
-    
-  server:
-    image: getumbrel/community-app-store-hello-world:latest
-    user: "1000:1000"
-    init: true
+      PUID: 1000
+      PGID: 1000
+    ports:
+      - 8084:8084
+    restart: unless-stopped
+    volumes:
+      - /path/to/books:/books # Default destination for book downloads
+      - /path/to/config:/config # App configuration
+      # Required for torrent / usenet - path must match your download client's volume exactly
+      # - /path/to/downloads:/path/to/downloads
