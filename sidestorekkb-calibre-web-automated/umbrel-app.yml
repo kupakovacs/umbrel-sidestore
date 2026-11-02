@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: sidestorekkb-calibre-web-automated
+name: Calibre Web Automated
+tagline: Making Calibre-Web your dream, all-in-one self-hosted digital library solution.
+icon: https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/CWA-banner.png	
+category: Media
+version: "4.0.8"
+port: 8083
+description: >-
+  Calibre-Web Automated aims to be an all-in-one solution, combining the modern lightweight web UI from Calibre-Web with the robust, versatile feature set of Calibre, with a slew of extra features and automations thrown in on top.
+
+
+developer: crocodilestick
+website: https://github.com/crocodilestick/Calibre-Web-Automated
+submitter: kupakovacsb
+submission: https://github.com/kupakovacs/umbrel-sidestore
+repo: https://github.com/calibrain/shelfmark
+support: https://github.com/calibrain/shelfmark/issues
+gallery:
+  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/CWA-Homepage.png?raw=true
+  - https://github.com/crocodilestick/Calibre-Web-Automated/raw/main/README_images/new-book-details-page.png?raw=true
+  - https://github.com/calibrain/shelfmark/raw/main/README_images/multi-source.png
+  - https://github.com/calibrain/shelfmark/raw/main/README_images/downloads.png
+releaseNotes: >-
+ Kobo First Sync Fixed 📲, Books Waiting in Ingest Now Imported at Startup 📥, Correct "Date Added" Times 🕒, No More Root-Owned Files 🔐, Less Background Load ⚡ and more!
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
