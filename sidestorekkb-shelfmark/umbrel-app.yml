@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: sidestorekkb-shelfmark
+name: Shelfmark
+tagline: Book Search & Request Tool
+icon: https://raw.githubusercontent.com/calibrain/shelfmark/refs/heads/main/src/frontend/public/logo.png
+category: Media
+version: "1.6.1"
+port: 8084
+description: >-
+  Shelfmark is a self-hosted web interface for searching and requesting books and audiobooks across multiple sources. Bring your own sources, metadata providers, and download clients to build a single hub for your digital library. Supports multiple users with a built-in request system, so you can share your instance with others and let them browse and request books on their own.
+
+
+developer: calibrain
+website: https://github.com/calibrain/shelfmark
+submitter: kupakovacsb
+submission: https://github.com/kupakovacs/umbrel-sidestore
+repo: https://github.com/calibrain/shelfmark
+support: https://github.com/calibrain/shelfmark/issues
+gallery:
+  - https://raw.githubusercontent.com/calibrain/shelfmark/refs/heads/main/README_images/homescreen.png
+  - https://raw.githubusercontent.com/calibrain/shelfmark/main/README_images/search-results.png
+  - https://github.com/calibrain/shelfmark/raw/main/README_images/multi-source.png
+  - https://github.com/calibrain/shelfmark/raw/main/README_images/downloads.png
+releaseNotes: >-
+ Mostly housekeeping this time. main.py was one very large file, and the routes, Socket.IO handlers and middleware now live in their own modules. Behaviour is the same, and the URL map is identical before and after. There are also two small changes to what the image does.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
