@@ -25,5 +25,5 @@ releaseNotes: >-
  Kobo First Sync Fixed 📲, Books Waiting in Ingest Now Imported at Startup 📥, Correct "Date Added" Times 🕒, No More Root-Owned Files 🔐, Less Background Load ⚡ and more!
 dependencies: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "admin"
+defaultPassword: "admin123"
